@@ -9,8 +9,8 @@ int main() {
     cin >> x;
 
     if (x != 0) {
-        int cubed = (x * x * x);
-        cout << cubed << endl;
+        int times = (x * x * x);
+        cout << times << endl;
     }
    return 0;
 }
