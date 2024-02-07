@@ -4,13 +4,13 @@
 using namespace std;
 
 int main() {
-    cout << "Enter a number and the result will be cubed." << endl;
     int x;
+    cout << "Enter a number and the result will be cubed > ";
     cin >> x;
 
-    while (x != 0) {
-        
+    if (x != 0) {
+        int cubed = (x * x * x);
+        cout << cubed << endl;
     }
-
-    return 0;
+   return 0;
 }
